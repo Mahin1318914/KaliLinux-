@@ -8,7 +8,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Unzip project
-        run: unzip -q kalibox.zip -d proj
+        run: unzip -q "kalibox (2).zip" -d proj
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
